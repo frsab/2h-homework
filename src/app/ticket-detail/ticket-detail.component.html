@@ -1,0 +1,22 @@
+<h2> Ticket
+    <span *ngIf="ticket">
+        {{ticket.id}} </span>
+    <br></h2>
+    <div  >
+        <mat-label>description</mat-label> <br>
+        <input *ngIf="ticket" matInput [value]="ticket.description"> <br>
+        <br>
+        <mat-label>Completed</mat-label> <br>
+        <input *ngIf="ticket" matInput [value]="ticket.completed"> <br>
+        <br>
+        <mat-label>Assignee</mat-label> <br>
+        <span *ngIf="ticket" style="border: 1px solid black; ">
+              <app-assignee-selection
+                      [users]="users"
+                      [assigneeId]="ticket.assigneeId"
+              ></app-assignee-selection>
+        </span>
+        <br>
+    </div>
+
+

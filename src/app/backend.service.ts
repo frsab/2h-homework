@@ -1,8 +1,8 @@
-import { Injectable } from '@angular/core';
-import { Observable, of, throwError } from 'rxjs';
-import { delay, tap } from 'rxjs/operators';
-import { Ticket } from '../interfaces/ticket.interface';
-import { User } from '../interfaces/user.interface';
+import {Injectable} from '@angular/core';
+import {Observable, of, throwError} from 'rxjs';
+import {delay, tap} from 'rxjs/operators';
+import {Ticket} from '../interfaces/ticket.interface';
+import {User} from '../interfaces/user.interface';
 
 /**
  * This service acts as a mock back-end.
@@ -26,13 +26,26 @@ export class BackendService {
             id: 1,
             completed: false,
             assigneeId: 111,
-            description: 'Move the desk to the new location'
+            description: 'Move the desk to the new location 1'
+        }, {
+            id: 2,
+            completed: false,
+            assigneeId: 222,
+            description: 'Move the desk to the new location 2'
+        }, {
+            id: 3,
+            completed: false,
+            assigneeId: 1212,
+            description: 'Move the desk to the new location 3'
         }
     ];
 
-    public storedUsers: User[] = [{ id: 111, name: 'Victor' }];
+    public storedUsers: User[] = [
+        {id: 111, name: 'Victor'},
+        {id: 222, name: 'Saber'}
+    ];
 
-    private lastId: number = 1;
+    private lastId: number = 3;
 
     private findUserById = id => this.storedUsers.find((user: User) => user.id === +id);
     private findTicketById = id => this.storedTickets.find((ticket: Ticket) => ticket.id === +id);
