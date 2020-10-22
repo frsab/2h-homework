@@ -16,19 +16,22 @@ export class TicketsListComponent implements OnInit {
 
     ngOnInit(): void {
         this.tickets$.subscribe(tickets => {
-            this.ticketsData = tickets;//this.backendService.tickets();
             this.dataSource = new MatTableDataSource(tickets);
-        })
+        }, error => {
+            console.log("tickets error ", error);
+        });
         this.users$.subscribe(users => {
             this.users = users;
 
-        })
+        }, error => {
+            console.log("users error ", error);
+        });
     }
 
     public readonly users$: Observable<User[]> = this.backendService.users();
     public readonly tickets$: Observable<Ticket[]> = this.backendService.tickets();
     public users: User[] = [];
-    public ticketsData: Ticket[] = [];
+//    public ticketsData: Ticket[] = [];
     public dataSource = new MatTableDataSource();
 
     public newTicketObservable: Observable<Ticket>;//Observable<Ticket[]> = this.backendService.tickets();
@@ -46,12 +49,13 @@ export class TicketsListComponent implements OnInit {
         this.newTicketObservable.subscribe(readyNewTicket => {
             const data = this.dataSource.data;
             this.dataSource.data = data;
-            //  this.dataSource. = new MatTableDataSource(tickets);
-
-        })
+        }, error => {
+            console.log("readyNewTicket error ", error);
+        });
     }
-    upldate(id){
-        this.router.navigateByUrl("/detail/"+id);
+
+    upldate(id) {
+        this.router.navigateByUrl("/detail/" + id);
     }
 
 

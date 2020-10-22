@@ -17,16 +17,22 @@ export class TicketDetailComponent implements OnInit {
     public ticket: Ticket;
     public readonly users$: Observable<User[]> = this.backendService.users();
     public users: User[] = [];
-    constructor(private readonly backendService: BackendService,private route: ActivatedRoute) {
-        this.sub = this.route.params.subscribe(params => {
-            console.log("params",params)
 
+    constructor(
+        private readonly backendService: BackendService,
+        private route: ActivatedRoute
+    ) {
+        this.sub = this.route.params.subscribe(params => {
+            console.log("params : ", params);
             this.id = +params['id']; // (+) converts string 'id' to a number
-            console.log("params",this.id)
-            this.backendService.ticket(this.id).subscribe(readyTicket=>{
-                this.ticket=readyTicket;
+            this.backendService.ticket(this.id).subscribe(readyTicket => {
+                this.ticket = readyTicket;
+            }, error => {
+                console.log("backendService ticket error ", error);
             });
             // In a real app: dispatch action to load the details here.
+        }, error => {
+            console.log("params route error ", error);
         });
     }
 
@@ -35,10 +41,11 @@ export class TicketDetailComponent implements OnInit {
         this.users$.subscribe(users => {
             this.users = users;
 
-        })
+        }, error => {
+            console.log("users$  error ", error);
+        });
 
     }
-
 
 
 }
