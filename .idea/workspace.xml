@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ccb681b-e4c5-4bce-af56-194113416587" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/ticket-detail/ticket-detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ticket-detail/ticket-detail.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tickets-list/tickets-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tickets-list/tickets-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -24,7 +24,7 @@
             <entry file="file://$PROJECT_DIR$/src/app/tickets-list/tickets-list.component.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="34">
-                  <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+                  <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -53,20 +53,38 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/app/tickets-list/tickets-list.component.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
+                <state relative-caret-position="714">
                   <caret line="48" column="42" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="42" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/app/ticket-detail/ticket-detail.component.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
+                <state relative-caret-position="663">
                   <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
                   <folding>
                     <element signature="e#0#48#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/app/material.module/material.module.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="139">
+                  <caret line="105" column="25" lean-forward="true" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -78,7 +96,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/node_modules/rxjs/src/internal/Observable.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-746">
+                <state relative-caret-position="1088">
                   <caret line="74" column="41" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="41" />
                 </state>
               </provider>
@@ -155,10 +173,10 @@
         <option value="$PROJECT_DIR$/src/app/backend.service.ts" />
         <option value="$PROJECT_DIR$/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/src/app/ticket-detail/ticket-detail.component.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/app/tickets-list/tickets-list.component.html" />
         <option value="$PROJECT_DIR$/src/app/tickets-list/tickets-list.component.ts" />
         <option value="$PROJECT_DIR$/src/app/ticket-detail/ticket-detail.component.ts" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -184,6 +202,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -192,29 +211,10 @@
               <item name="2h-homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="2h-homework" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="2h-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2h-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2h-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2h-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2h-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2h-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="tickets-list" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,17 +277,20 @@
       <workItem from="1603186036480" duration="22135000" />
       <workItem from="1603208773665" duration="2774000" />
       <workItem from="1603287739593" duration="3240000" />
+      <workItem from="1603532249268" duration="1227000" />
+      <workItem from="1603536661449" duration="917000" />
+      <workItem from="1603892598819" duration="115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28149000" />
+    <option name="totallyTimeSpent" value="30408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-1088" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20522387" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21162046" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -305,7 +308,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.35536295" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.35536295" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -327,23 +330,12 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/ticket-detail/ticket-detail.component.ts</url>
           <line>17</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/material.module/material.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1921">
-          <caret line="113" column="27" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/tickets-list/tickets-list.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-27">
@@ -435,17 +427,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/tickets-list/tickets-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -459,23 +451,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/tickets-list/tickets-list.component.html">
+    <entry file="file://$PROJECT_DIR$/src/app/tickets-list/tickets-list.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="714">
+          <caret line="48" column="42" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/tickets-list/tickets-list.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/ticket-detail/ticket-detail.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="48" column="42" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="42" />
+        <state relative-caret-position="663">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/rxjs/src/internal/Observable.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-746">
+        <state relative-caret-position="1088">
           <caret line="74" column="41" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="41" />
         </state>
       </provider>
@@ -487,13 +482,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/ticket-detail/ticket-detail.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/material.module/material.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="139">
+          <caret line="105" column="25" lean-forward="true" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
         </state>
       </provider>
     </entry>
